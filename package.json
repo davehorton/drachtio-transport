@@ -1,34 +1,37 @@
 {
-    "name": "json-socket",
-    "description": "An easy way to send JSON over TCP using sockets.",
-    "main": "./lib/json-socket",
-    "author": "Sebastian Seilund",
-    "version": "0.1.2",
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/sebastianseilund/node-json-socket.git"
-    },
-    "bugs" : {
-        "url" : "http://github.com/sebastianseilund/node-json-socket/issues"
-    },
-    "maintainers": [{
-        "name": "Sebastian Seilund",
-        "email": "sebastian@seilund.com",
-        "url": "http://www.sebastianseilund.com"
-    }],
-    "licenses" : [
-        {
-            "type" : "MIT",
-            "url" : "http://github.com/sebastianseilund/node-json-socket/raw/master/LICENSE"
-        }
-    ],
-    "devDependencies": {
-        "mocha": "*"
-    },
-    "dependencies": {
-        "async": "0.1.x"
-    },
-    "scripts": {
-        "test": "./node_modules/.bin/mocha $(shell find test -name '*.test.js')"
+  "name": "drachtio-transport",
+  "description": "An easy way to send JSON over TCP using sockets.",
+  "main": "./lib/json-socket",
+  "author": "Dave Horton",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/davehorton/drachtio-transport.git"
+  },
+  "bugs": {
+    "url": "http://github.com/davehorton/drachtio-transport/issues"
+  },
+  "maintainers": [
+    "Dave Horton <dave@dchorton.com>"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/davehorton/drachtio-transport/raw/master/LICENSE"
     }
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "dependencies": {
+    "async": "0.1.x"
+  },
+  "scripts": {
+    "test": "mocha $(shell find test -name '*.test.js')"
+  },
+  "homepage": "https://github.com/davehorton/drachtio-transport",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
 }
